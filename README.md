@@ -52,29 +52,36 @@ beloman-hvac-website/
 ├── promotions.html      # Promotions page
 
 ├── customer-reviews.html  # Customer Reviews page 
+
 ├── services/ 
 │   ├── air-conditioning.html 
+
 │   ├── furnaces.html 
+
 │   ├── air-handlers.html 
+
 │   ├── ductless-systems.html 
+
 │   ├── heat-pumps.html 
+
 │   ├── indoor-air-quality.html 
+
 │   ├── hvac-maintenance.html 
+
 │   └── commercial-hvac.html 
+
 ├── css/ 
-└── main-styles.css        
-└── index.css         
- # Main CSS file for styling 
-# Main CSS file for styling 
-├── assets/ 
-├── …           
-└── images/       
-# logos and icons image 
-# images for the website 
-└── components/        
-└── js/        
-# HTML shortcuts 
-# JavaScript file 
+    └── main-styles.css       # Main CSS file for styling  
+    └── index.css         # Main CSS file for styling
+
+├── assets/ # logos and icons image 
+    ├── …           
+└── images/       # images for the website 
+
+└── components/      # HTML shortcuts  
+└── js/        # JavaScript file 
+ 
+
 Usage 
 Open index.html in a browser to explore the website. The navigation bar provides quick access to all service 
 categories, while the hero section presents the latest promotions. Each service has a dedicated page to 
