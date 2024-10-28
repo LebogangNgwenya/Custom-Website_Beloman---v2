@@ -51,7 +51,7 @@ function toggleMenu() {
 
 //call header
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../components/header.html')
+    fetch('../Custom-Website_Beloman---v2/components/header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header').innerHTML = data;
@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //call navigation bar
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../components/nav-bar.html')
+    fetch('../Custom-Website_Beloman---v2/components/nav-bar.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('nav-bar').innerHTML = data;
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //call footer
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../components/footer.html')
+    fetch('../Custom-Website_Beloman---v2/components/footer.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer').innerHTML = data;
