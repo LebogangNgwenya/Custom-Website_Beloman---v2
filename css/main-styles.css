@@ -459,7 +459,11 @@ hr {
       height: 10%;
       width: 30%;
     }
-
+    
+    .why-choose-us{
+      display: flex;
+      flex-direction: column;
+    }
     }
 
     
