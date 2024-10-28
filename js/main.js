@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 //call footer
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('../Custom-Website_Beloman---v2/components/footer.html')
+    fetch('/components/footer.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer').innerHTML = data;
