@@ -51,7 +51,7 @@ function toggleMenu() {
 
 //call header
 document.addEventListener("DOMContentLoaded", function() {
-    fetch('LebogangNgwenya/Custom-Website_Beloman---v2/components/header.html')
+    fetch('/LebogangNgwenya/Custom-Website_Beloman---v2/components/header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header').innerHTML = data;
