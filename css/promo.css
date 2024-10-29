@@ -75,7 +75,7 @@
     flex-direction: column;
     gap: 10px;
     z-index: 0;
-    height: calc(100vh - 50px)
+    height: calc(128vh - 10px);
   }
   .tag-promo{
     display: flex;
